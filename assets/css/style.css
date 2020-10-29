@@ -1,8 +1,14 @@
+/* utility class */
+.container_main {
+    width: 70%;
+    margin: auto;
+}
 /* Navbar code */
 .navbar {
     padding: 10px 0;
     background-color: #FFFFFF;
     font-size: 1.7rem;
+    margin: unset;
 }
 
 .nav li a {
@@ -61,3 +67,79 @@
     }
 }
 /* navbar code */
+
+/* hero section */
+.hero_img {
+    background-image: url(../img/bg-home-3.svg);
+    
+}
+
+.bg_white {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 7rem 0;
+}
+
+font {
+    color: #086AFF;
+}
+
+.hero_img .bg_white h2 {
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+.hero_img .bg_white h6 {
+    text-align: center;
+}
+
+.btn_create_acc , .btn_google {
+    display: block;
+    width: 100%;
+    margin: 2rem 0;
+    padding: 1.2rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.form-control {
+    font-size: 1.8rem;
+    padding: 2rem 1rem;
+}
+
+.btn_create_acc {
+    background-color: #086AFF;
+    color: #FFFFFF;  
+}
+
+.btn_google {
+    color: grey;
+}
+
+.title_hero {
+    color: #FFFFFF;
+    margin-top: 10rem;
+}
+
+.title_hero h1 {
+    font-size: 58px;
+}
+
+.title_hero h1 {
+    font-size: 6.5rem;
+}
+
+.title_hero h3 {
+    line-height: 4rem;
+    color: lightgray;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 991px) {
+    h1 {
+        font-size:42px !important;
+    }
+}
+/* hero section */
+
