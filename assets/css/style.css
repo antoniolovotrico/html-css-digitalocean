@@ -143,3 +143,27 @@ font {
 }
 /* hero section */
 
+/* bottom hero */
+.bottom_hero {
+    text-align: center;
+    background-color: #F3F5F9;
+    padding: 25px 0;
+}
+
+.bottom_hero img {
+    width: 100%;
+    max-width: 186px;
+    height: auto;
+    padding: 10px;
+}
+
+.bottom_hero h5 a {
+    font-size: 1.8rem;
+    color: #086AFF;
+}
+
+#chevron {
+    width: 4%;
+}
+
+
