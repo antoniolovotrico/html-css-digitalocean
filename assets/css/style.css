@@ -33,6 +33,23 @@ h5 a {
     background-color: #0434B0;
 } 
 
+.card {
+    min-height: 240px;
+    
+}
+
+.card h3 {
+    text-align: left;
+    padding: 0.4rem 0;
+    color: black;
+    font-weight: 500;
+}
+
+.card p {
+    font-size: 1.9rem;
+    color: grey;
+}
+
 
 /* Navbar code */
 .navbar {
@@ -226,23 +243,6 @@ font {
     color: grey;
     line-height: 5rem;
 }
-
-.card_optimization {
-    min-height: 240px;
-    
-}
-
-.card_optimization h3 {
-    text-align: left;
-    padding: 0.4rem 0;
-    color: black;
-    font-weight: 500;
-}
-
-.card_optimization p {
-    font-size: 1.9rem;
-    color: grey;
-}
 /* optimization section */
 
 /* design section */
@@ -326,6 +326,66 @@ font {
 .service_data i {
     font-size: 1.1rem;
     color: aqua;
+}
+/* service data section */
+
+/* developmet section */
+.development .container {
+    position: relative;
+    height: 800px;
+}
+
+.card_development {
+    min-height: 240px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 6rem 2rem;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);   
+}
+
+.card_development h3 {
+    padding: 0.4rem 0;
+    color: black;
+    font-weight: 500;
+}
+
+.card_development p {
+    font-size: 1.9rem;
+    color: grey;
+}
+
+.development .btn_series {
+    position: absolute;
+    bottom: 2%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.development #sign_right {
+    position: absolute;
+    top: 55%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+}
+
+.development #sign_left {
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    font-size: 4rem;
+}
+
+.development p {
+    color: black;
+}
+
+.development h3 {
+    color: grey;
 }
 
 
