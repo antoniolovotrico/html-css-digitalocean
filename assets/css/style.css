@@ -16,6 +16,13 @@ h3 {
     padding-bottom: 5rem;
 }
 
+p {
+    font-size: 1.9rem;
+}
+
+.bg_grey {
+    background-color: #F3F5F9;
+}
 
 
 /* Navbar code */
@@ -85,7 +92,7 @@ h3 {
 
 /* hero section */
 .hero_img {
-    background-image: url(../img/bg-home-3.svg);
+    background-image: url(../img/bg-home-4.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -231,6 +238,34 @@ font {
 .card_optimization p {
     font-size: 1.9rem;
     color: grey;
+}
+/* optimization section */
+
+/* design section */
+#droplets {
+    padding-bottom: 3rem;
+    width: 60%;
+}
+
+.design i {
+    font-size: 4rem;
+    padding: 4rem;
+}
+
+.btn_series {
+    margin-bottom: 5rem;
+}
+
+.btn_dot {
+    border: 2px solid#086AFF;
+    border-radius: 100%;
+    padding: 5px 5px;
+}
+.btn_dot_active {
+    border: 2px solid #086AFF;
+    border-radius: 100%;
+    padding: 5px 5px;
+    background-color: #086AFF !important;
 }
 
 
