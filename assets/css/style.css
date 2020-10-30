@@ -226,6 +226,9 @@ font {
 /* sponsor section */
 
 /* optimization section */
+.optimization {
+    padding-bottom: 8rem;
+}
 .menu_col {
     border-left: 3px solid lightgrey;
     padding-left: 0;
