@@ -1,8 +1,8 @@
 /* utility class */
-.container_main {
-    width: 70%;
-    margin: auto;
+body {
+    font-family: 'Roboto', sans-serif;
 }
+
 /* Navbar code */
 .navbar {
     padding: 10px 0;
@@ -71,7 +71,8 @@
 /* hero section */
 .hero_img {
     background-image: url(../img/bg-home-3.svg);
-    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .bg_white {
@@ -162,8 +163,14 @@ font {
     color: #086AFF;
 }
 
+.bottom_hero h4 {
+    font-size: 1.8rem;
+    color: grey;
+}
+
 #chevron {
     width: 4%;
 }
+/* bottom hero */
 
 
