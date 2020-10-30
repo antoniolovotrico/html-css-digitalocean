@@ -116,6 +116,13 @@ font {
 
 .btn_google {
     color: grey;
+    padding-left: 10px;
+    box-shadow: 2px 2px 2px lightgrey;
+}
+
+.btn_google img {
+    float: left;
+    padding-top: 4px;
 }
 
 .title_hero {
@@ -124,7 +131,7 @@ font {
 }
 
 .title_hero h1 {
-    font-size: 58px;
+    font-size: 64px;
 }
 
 .title_hero h1 {
@@ -145,25 +152,25 @@ font {
 /* hero section */
 
 /* bottom hero */
-.bottom_hero {
+.sponsor {
     text-align: center;
     background-color: #F3F5F9;
     padding: 25px 0;
 }
 
-.bottom_hero img {
+.sponsor img {
     width: 100%;
     max-width: 186px;
     height: auto;
     padding: 10px;
 }
 
-.bottom_hero h5 a {
+.sponsor h5 a {
     font-size: 1.8rem;
     color: #086AFF;
 }
 
-.bottom_hero h4 {
+.sponsor h4 {
     font-size: 1.8rem;
     color: grey;
 }
