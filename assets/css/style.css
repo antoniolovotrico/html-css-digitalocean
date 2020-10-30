@@ -20,6 +20,11 @@ p {
     font-size: 1.9rem;
 }
 
+h5 a {
+    font-size: 1.8rem;
+    color: #086AFF;
+}
+
 .bg_grey {
     background-color: #F3F5F9;
 }
@@ -189,11 +194,6 @@ font {
     padding: 10px;
 }
 
-.sponsor h5 a {
-    font-size: 1.8rem;
-    color: #086AFF;
-}
-
 .sponsor h4 {
     font-size: 1.8rem;
     color: grey;
@@ -267,5 +267,19 @@ font {
     padding: 5px 5px;
     background-color: #086AFF !important;
 }
+/* design section */
+
+/* features section */
+
+.feature h2 {
+    padding-bottom: 4rem;;
+}
+
+.feature {
+    padding-bottom: 7rem;
+}
+/* features section */
+
+
 
 
