@@ -156,9 +156,9 @@
                 <div class="container">
                     <h2>Designed for developers</h2>
                     <h3>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</h3>
-                    <i class="fas fa-chevron-left"></i>
+                    <i class="fas fa-chevron-left" id="sign_left"></i>
                     <img src="assets/img/createdopretls.jpg" id="droplets" alt="">
-                    <i class="fas fa-chevron-right"></i>
+                    <i class="fas fa-chevron-right" id="sign_right"></i>
                     <p>Create compute servers in 55 seconds or less.</p>
                     <div class="btn_series">
                         <button class="btn_dot_active"></button>
@@ -208,13 +208,94 @@
             <!-- /features section -->
 
             <!-- service data section -->
-            <section>
+            <section class="service_data bg_blue">
+                <div class="container">
+                    <h2>Service your customers around the world from 12 regions.</h2>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 first_data">AMS2</div>
+                                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 second_data">Amsterdam, Netherlands</div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-right"><a href="">Test Speed <i class="fas fa-chevron-right"></i></a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 first_data">AMS3</div>
+                                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 second_data">Amsterdam, Netherlands</div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-right"><a href="">Test Speed <i class="fas fa-chevron-right"></i></a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 first_data">BLR1</div>
+                                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 second_data">Bangalore, India</div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-right"><a href="">Test Speed <i class="fas fa-chevron-right"></i></a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 first_data">FRA1</div>
+                                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 second_data">Frankfurt, Germany</div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-right"><a href="">Test Speed <i class="fas fa-chevron-right"></i></a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 first_data">LON1</div>
+                                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 second_data">London, UK</div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-right"><a href="">Test Speed <i class="fas fa-chevron-right"></i></a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 first_data">NYC1</div>
+                                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 second_data">New York, NY</div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-right"><a href="">Test Speed <i class="fas fa-chevron-right"></i></a></div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 first_data">SGP1</div>
+                                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 second_data">Singapore</div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-right"><a href="">Test Speed <i class="fas fa-chevron-right"></i></a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 first_data">NYC3</div>
+                                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 second_data">New York, NY</div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-right"><a href="">Test Speed <i class="fas fa-chevron-right"></i></a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 first_data">AMS3</div>
+                                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 second_data">Amsterdam, Netherlands</div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-right"><a href="">Test Speed <i class="fas fa-chevron-right"></i></a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 first_data">SFO1</div>
+                                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 second_data">San Francisco, CA</div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-right"><a href="">Test Speed <i class="fas fa-chevron-right"></i></a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 first_data">TOR1</div>
+                                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 second_data">Toronto, Canada</div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-right"><a href="">Test Speed <i class="fas fa-chevron-right"></i></a></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 first_data">AMS4</div>
+                                <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7 second_data">Amsterdam, Netherlands</div>
+                                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-right"><a href="">Test Speed <i class="fas fa-chevron-right"></i></a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </section>
              <!-- /service data section -->
 
              <!-- developmet section -->
-            <section>
+            <section class="development bg_grey text-center">
+                <div class="container">
+                    <h2>Development teams love DigitalOcean</h2>
+                    <i class="fas fa-chevron-left" id="sign_left"></i>
+                    <img src="assets/img/rockerbox.png" id="droplets" alt="">
+                    <i class="fas fa-chevron-right" id="sign_right"></i>
+                    <div class="btn_series">
+                        <button class="btn_dot_active"></button>
+                        <button class="btn_dot"></button>
+                        <button class="btn_dot"></button>
+                    </div>
+                </div>    
+
 
             </section>
              <!-- /development section -->

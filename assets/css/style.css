@@ -29,6 +29,10 @@ h5 a {
     background-color: #F3F5F9;
 }
 
+.bg_blue {
+    background-color: #0434B0;
+} 
+
 
 /* Navbar code */
 .navbar {
@@ -247,9 +251,13 @@ font {
     width: 60%;
 }
 
-.design i {
+.design #sign_right {
     font-size: 4rem;
-    padding: 4rem;
+    padding-left: 4rem;
+}
+.design #sign_left {
+    font-size: 4rem;
+    padding-right: 4rem;
 }
 
 .btn_series {
@@ -272,13 +280,53 @@ font {
 /* features section */
 
 .feature h2 {
-    padding-bottom: 4rem;;
+    padding-bottom: 4rem;
 }
 
 .feature {
     padding-bottom: 7rem;
 }
 /* features section */
+
+/* service data section */
+.service_data {
+    padding-bottom: 7rem;;
+}
+
+.service_data h2 {
+    color: white;
+    padding-bottom: 4rem;
+}
+
+.service_data .row .row:not(:last-child) {
+    border-bottom: 1px solid white;
+    padding: 1rem 0;
+    margin: 0 0.7rem;
+}
+
+.service_data .row .row:last-child {
+    padding: 1rem 0;
+    margin: 0 0.7rem;
+}
+
+.first_data {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.second_data {
+    color: lightgrey;
+    font-size: 1.6rem;
+}
+
+.service_data a {
+    color: aqua;
+}
+
+.service_data i {
+    font-size: 1.1rem;
+    color: aqua;
+}
 
 
 
