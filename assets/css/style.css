@@ -54,6 +54,10 @@ h5 a {
     color: grey;
 }
 
+.chevron {
+    width: 2rem;
+}
+
 
 /* Navbar code */
 .navbar {
@@ -134,9 +138,7 @@ h5 a {
     margin: 7rem 0;
 }
 
-font {
-    color: #086AFF;
-}
+
 
 .hero_img .bg_white h2 {
     padding: 0;
@@ -198,6 +200,10 @@ font {
     font-weight: 400;
 }
 
+#font_get_started {
+    color: #086AFF;
+}
+
 @media screen and (max-width: 991px) {
     h1 {
         font-size:42px !important;
@@ -212,11 +218,11 @@ font {
     padding: 25px 0;
 }
 
-.sponsor img {
+.sponsor .column img {
     width: 100%;
     max-width: 186px;
     height: auto;
-    padding: 10px;
+    padding: 20px 10px;
 }
 
 .sponsor h4 {
@@ -224,9 +230,6 @@ font {
     color: grey;
 }
 
-#chevron {
-    width: 4%;
-}
 /* sponsor section */
 
 /* optimization section */
@@ -258,12 +261,12 @@ font {
     width: 60%;
 }
 
-.design #sign_right {
+.design .sign_right {
     font-size: 4rem;
     padding-left: 4rem;
     color: #010E28;
 }
-.design #sign_left {
+.design .sign_left {
     font-size: 4rem;
     padding-right: 4rem;
     color: #010E28;
@@ -373,7 +376,7 @@ font {
     transform: translate(-50%, -50%);
 }
 
-.development #sign_right {
+.development .sign_right {
     position: absolute;
     top: 55%;
     left: 90%;
@@ -382,7 +385,7 @@ font {
     color: #010E28;
 }
 
-.development #sign_left {
+.development .sign_left {
     position: absolute;
     top: 55%;
     left: 10%;
