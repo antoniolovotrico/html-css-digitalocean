@@ -33,6 +33,11 @@ h5 a {
     background-color: #0434B0;
 } 
 
+.bg_dark_blue {
+    background-color: #010E28;
+    height: 500px;
+}
+
 .card {
     min-height: 240px;
     
@@ -390,7 +395,27 @@ font {
 .development h3 {
     color: grey;
 }
+/* developmet section */
+
+/* get started section */
+
+.bg_blu_img {
+    background-image: url(../img/bg-home-cta.svg);
+}
+
+.get_started h2 {
+    color: white;
+}
+
+.get_started .btn {
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    color: #086AFF;
+}
+/* get started section */
+
+/* footer */
 
 
 
-
+#010E28
