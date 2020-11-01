@@ -418,10 +418,11 @@ font {
 /* get started section */
 
 /* footer */
-
 .bg_dark_blue {
     padding: 5rem;
 }
+
+
  footer .btn_social {
      color: gray;
      font-size: 2rem;
@@ -455,3 +456,31 @@ font {
      line-height: 3rem;
      text-transform: capitalize;
  }
+
+ footer {
+    position: relative;
+}
+
+.help_bot {
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    transform: translate(-50%, -50%);
+}
+.help_bot p {
+    display: inline-block;
+    max-width: 250px;
+    font-size: 1.3rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.bot_img {
+    font-size: 3.5rem;
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 10px;
+    color: green;
+}
